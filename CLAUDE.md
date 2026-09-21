@@ -1,3 +1,4 @@
+[CLAUDE.md](https://github.com/user-attachments/files/32473315/CLAUDE.md)
 # Shegöne — Istruzioni di brand per Claude
 
 Versione compatta del design system, pensata per essere **incollata nelle istruzioni personalizzate di un progetto Claude** (o a inizio conversazione), così Claude genera copy, caption e descrizioni prodotto già coerenti con il brand, senza doverglielo rispiegare ogni volta.
@@ -21,6 +22,7 @@ Tre parole guida per ogni scelta: **chiaro, sintetico, freddo**.
 5. Mostra il concetto, non spiegarlo o giustificarlo.
 6. Vocabolario ricorrente da preferire: *eco, crepa, segno, materia, drop, rinascita, essenziale, traccia, momento, kintsugi*.
 7. Evita aggettivi decorativi e superlativi ("splendido", "perfetto per ogni occasione", "unico nel suo genere").
+8. **Caption social**: nomina sempre **kintsugi** nel testo *e* fai riferimento a **"l'eco di un momento"** nella frase — non solo come hashtag.
 
 **Non scrivere mai così:** "Una splendida felpa nera perfetta per ogni occasione!"
 **Scrivi così:** "Nera come il momento prima che si rompa."
@@ -37,9 +39,15 @@ Tre parole guida per ogni scelta: **chiaro, sintetico, freddo**.
 Base monocromatica (nero/bianco/grigio) + teal come unico accento cromatico, usato con parsimonia — mai come colore "di massa".
 
 ## Font
-- Titoli/display: **Space Grotesk**
-- Corpo testo: **Inter**
+- Titoli/display (hero, titoli di sezione, nomi prodotto): **Baskervville** (serif editoriale).
+- Corpo testo e bottoni: **Figtree**.
 - Il font del wordmark del logo è riservato al logo stesso: mai per testi lunghi.
+
+*Aggiornato il 2026-09-21 dal tema del sito live: sostituisce la coppia Space Grotesk + Inter indicata in una versione precedente di questo file.*
+
+## Elementi visivi ricorrenti
+- Bottoni con angolo smussato (radius 8px); pillole filtro a tutto tondo.
+- Bottone primario: sfondo teal pieno, un solo bottone primario per vista.
 
 ## Direzione visiva (foto e immagini IA)
 Luce dura e direzionale, mai calda. Color grading desaturato, dominante fredda, neri profondi, bianchi puliti. Ambientazioni urbane essenziali: cemento, metallo, superfici lisce o crepate, spazi minimal. Pose composte e controllate, mai caotiche o esplosive.
@@ -51,8 +59,8 @@ Evita sempre: `warm light, golden hour, vibrant colors, cluttered background`
 - Hero: "Shegöne. L'eco di un momento."
 - Prodotto: "Felpa Hoodie. Cotone pesante, fit oversize. Nera come il momento prima che si rompa."
 - Packaging: "Trattalo con cura. Porta un segno, non una macchia."
-- Social: "Nel kintsugi si ripara con l'oro. Noi con due cerotti." — #shegone #kintsugi #ecodiunmomento
-- Social: "Una crepa chiusa non è la fine. È l'eco di un momento." — #shegone #ecodiunmomento
+- Social: "Il kintsugi non nasconde la crepa. Resta l'eco di un momento." — #shegone #kintsugi #ecodiunmomento
+- Social: "Come il kintsugi, portiamo il segno. È l'eco di un momento." — #shegone #kintsugi #ecodiunmomento
 - Errore: "Qualcosa si è rotto. Riprova."
 - Carrello vuoto: "Il carrello è vuoto. Il segno lo lasci tu."
 
@@ -72,5 +80,5 @@ Se anche una sola risposta è no, riscrivi il testo.
 ---
 
 ## Riferimento completo
-Questo file è la versione compatta per Claude. Il design system visuale integrale — palette con swatch, logo in tutte le varianti, gerarchia tipografica, copy bank estesa — resta qui:
-https://claude.ai/artifact/5Hn1WUZYh6iDXV9t1TDx5v
+Questo file è la versione compatta per Claude. Il design system visuale integrale e aggiornato — palette con swatch, logo in tutte le varianti, gerarchia tipografica, radius, blocchi di pagina (Hero, ProductCard, CTA, post social) e copy bank estesa — resta qui:
+https://claude.ai/artifact/JvqKS3xy5ZNiPwEz3WmFZs
