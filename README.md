@@ -1,3 +1,4 @@
+[README_1.md](https://github.com/user-attachments/files/32473342/README_1.md)
 # Shegöne — Design System
 
 Repository del design system del brand Shegöne: identità visiva, palette, tipografia, tono di voce e copy bank.
@@ -13,10 +14,10 @@ Repository del design system del brand Shegöne: identità visiva, palette, tipo
 
 ## Riferimento live
 
-Versione pubblicata e sempre aggiornata del documento visuale:
-https://claude.ai/artifact/5Hn1WUZYh6iDXV9t1TDx5v
+Versione pubblicata e sempre aggiornata del documento visuale — include anche radius, blocchi di pagina (Hero, ProductCard, CTA, post social) e la tipografia allineata al sito live:
+https://claude.ai/artifact/JvqKS3xy5ZNiPwEz3WmFZs
 
 ## Brand in breve
 
 Streetwear, target 20–35 anni. Concept: kintsugi — la crepa non si nasconde, si mostra. Tre parole guida: **chiaro, sintetico, freddo**.
-Colore primario: `#497A84`. Font: Space Grotesk (display) + Inter (corpo testo).
+Colore primario: `#497A84`. Font: Baskervville (titoli) + Figtree (corpo testo) — aggiornato il 2026-09-21 dal tema del sito live, sostituisce Space Grotesk + Inter.
